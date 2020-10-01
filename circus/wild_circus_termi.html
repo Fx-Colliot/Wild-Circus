@@ -1,0 +1,175 @@
+<!-- Afin de valider ton code HTML, fais un copier-coller de ce dernier et rends-toi sur https://validator.w3.org/#validate_by_input. 
+Click sur l'onglet "Validate by Direct Input" et colle ton code HTML, click ensuite sur le bouton "Check", et tu verras ensuite (si tu en as) les erreurs HTML s'afficher plus bas.
+Tu peux jeter un oeil par ici pour en savoir un peu plus: https://www.243tech.com/valider-vos-codes-html-et-css-sur-validator-w3-org/ -->
+
+<!DOCTYPE html>
+<html  lang="fr">
+  
+   <head>
+     <meta charset="UTF-8"/>
+     <title>Wild Circus</title>
+     <link rel="stylesheet" href="css_wild_circus_termi.css" />
+     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+     
+  </head>
+
+<body>
+    <header>
+      <h1>Wild Circus</h1>
+      <nav>
+        <ul id="en_tete">
+            <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page -->
+            <li><a href="#perf" class="btn">Performances</a></li>
+            <li><a href="#us" class="btn">About Us</a></li>
+            <li><a href="#pr" class="btn">Prices</a></li>
+            <li><a href="#ct" class="btn">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <hr/>  
+  
+    <section>
+ <img src='piste.jpg' alt="scene" id="perf_bk"/>
+
+      <h2 id="perf">Performances</h2>
+      <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li". Attention, utilise bien le css pour aligner les éléments, tu ne dois pas enlever les balises "li"-->
+      <ul id="menu_perf">
+        <!-- performance 1 -->
+        <li>
+            <h3>Laugh:</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+         </li>
+        <!-- performance 2 -->
+         <li>
+            <h3>Dream:</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+         </li>
+         <!-- performance 3 -->
+         <li>
+            <h3>Marvel at:</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+         </li>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section id="ab_us">
+
+<img src="./photo/cirque.jpg" alt="cirque" id="cirque">
+
+      <h2 id="us">About Us</h2>
+      <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+  
+  <div id="p_us">
+
+      <p>The Wild Circus company was created in 2014 by Anna Stépanoff and Romain Coeur.</p>
+      <p>Ours circuses are présent all over Europe especially in France. We have 19 sites to welcome young and old during extraordinary shows.
+      <p>Shows are different from the usual because we want to put the public at the center of the performances so that they are the main actor.</p>
+      <p>With our raffles you may have the chance to come on stage to help the clowns in their comedies, lend a hand to the tiger trainer or join the team of acrobats,<br/><strong>...and more surprises.</strong></p>
+      
+  </div>
+
+
+
+    </section>
+
+
+    <hr/>
+
+    <section id="pr_bk">
+
+      <h2 id="pr">Prices</h2>
+      
+      
+      
+  <table id="prix">
+    <tr>
+      <td id="day"><img src="ticket.jpg" alt="ticket" id="ticket"></td>
+      <td>Adults</td>
+      <td>Children (- 12 yrs)</td>
+      <td>Groups (+ 10 ppl.)</td>
+      <td>Schools</td>
+    </tr>
+    
+    <tr>
+      <td id="day_1">Week off Wednesday</td>
+      <td>15 euros</td>
+      <td>10 euros</td>
+      <td>8 euros </td>
+      <td>5 euros</td>
+    </tr>
+    
+    <tr>
+      <td id="day_2">Week-end and Wednesdays</td>
+      <td>18 euros</td>
+      <td>12 euros</td>
+      <td>10 euros</td>
+      <td>Are you crazy ??</td>
+    </tr>
+ </table>
+      
+  
+    </section>
+
+    <hr/>
+
+    <section id="ct_us">
+      
+      <h2>Contact Us</h2>
+      
+
+        <div class="fmlr_txt">
+            <p>If you want to reserve tickets or for any questions please complete the following informations</p>
+        </div>
+
+    <div class="ct_box">
+
+        <form method="post" action="mailto:wildcircus@ex.com">
+
+          <div class="saisie">
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name">
+          </div>
+
+
+           <div class="saisie">
+             <label for="email">Your e-mail</label>
+             <input type="email" name="email" id="email">
+           </div>
+      
+
+           <div class="saisie">
+             <label for="msg">Your Message</label>
+             <textarea name="msg" id="msg"></textarea>
+           </div>
+      
+           <div class="saisie">
+              <input type="submit" value="Send" name="sd" id="sd" />
+           </div>
+        
+        </form>
+
+      </div>
+
+    </section>
+
+    <footer>
+      
+    <hr/>
+
+    <div id="ccl">
+      <p>Wild Circus by Colliot François-Xavier 
+        <a href="https://wildcodeschool.fr/">WildcodeSchool</a>
+        <a href="http://www.france-ioi.org/algo/chapters.php">France-IOI</a>
+        <a href="https://www.sololearn.com/Play/HTML">Sololearn</a>
+        <a href="https://www.linkedin.com/in/fran%C3%A7ois-xavier-colliot-327ab8153/">LinkedIn</a>
+        le 20/06/2019
+      </p>
+    </div>    
+       
+    </footer>
+
+</body>
+</html>

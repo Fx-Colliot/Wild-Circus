@@ -1,0 +1,250 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+  
+  
+
+body
+{ 
+  background-color: #ffecc6;
+  font-family: 'amatic SC';
+}
+
+
+
+/*header*/
+
+h1
+{
+  background: url('clown.jpg') repeat-x scroll;
+  border: 5px red dotted;
+  width: 800px;
+  max-height: 400px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-size: 7em;
+  color: red;
+  text-align: center;
+  padding-top: 350px; 
+}
+
+
+
+#en_tete
+{
+	display: flex; 
+  list-style: none;
+  justify-content: space-around;
+}
+
+
+.btn 
+{ 
+	display: block;
+  padding : 4px;
+  text-align: center;
+  font-size: 2em;
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+
+
+/*section*/
+
+h2
+{ 
+  font-size:3.5em;
+  color:#c600c2;
+}
+
+
+a
+{
+  color: #3281ff;
+  font-weight: bold;
+}
+
+a:hover
+{ 
+  color: black;
+}
+
+
+/*performances*/
+
+#menu_perf
+{ 
+  display:flex;
+  justify-content: space-around;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 15px;
+  list-style: none;
+  font-size: 1.4em;
+
+}
+
+#perf_bk
+{
+  float: right;
+  width:450px;
+  height: 350px;
+}
+
+
+h3
+{
+  color:#3281ff;
+  font-size: 1.6em;
+  display: flex;
+  text-align: justify;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+
+/*About us*/
+
+#ab_us
+{
+  height: 450px;
+}
+
+
+#cirque
+{
+  width: 250px;
+  height: 300px;
+  float: left;
+  margin-top: 100px;  
+}
+
+
+#us
+{
+  position: relative;
+  right: 250px;
+  bottom: 20px;
+
+}
+
+#p_us
+{
+  font-size: 1.6em;
+  margin-left: 300px;
+  line-height: 130%;
+  
+}
+
+
+
+
+/*Prices*/
+
+#pr_bk
+{
+  height: 450px;
+
+}
+
+#ticket
+{ 
+  width: 200px;
+  height: 200px;
+}
+
+#prix
+{ 
+  font-size:1.7em;
+  font-weight: bold;
+  color:#3281ff;
+  border-collapse: collapse;
+  width: 900px;
+  height: 240px;
+  margin: auto;
+  position: relative;
+  bottom: 60px;
+}
+
+
+td
+{
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+}
+
+tr
+{
+  font-family: "amatic SC";
+}
+
+#day_1
+{
+  width: 200px;
+  height: 75px;
+}
+
+
+#day_2
+{
+  width: 200px;
+  height: 75px;
+}
+
+
+
+
+/*Ct us*/
+
+
+
+.fmlr_txt
+{
+  font-size: 1.8em;
+  text-align: center;
+}
+
+
+.saisie
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 270px;
+}
+
+form
+{
+  font-size: 1.4em;
+}
+
+
+input
+{
+  width: 200px;
+}
+
+textarea
+{
+  width: 400px;
+  height: 150px;
+}
+
+
+
+
+
+/*footer*/
+
+
+
+#ccl
+{
+  font-size: 1.4em;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+
